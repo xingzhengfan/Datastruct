@@ -14,6 +14,6 @@
 void fullPermutation (char *str, size_t length, int index);
 
 void testFullPermutation (char *str, size_t length, int index);
-void perm(char *list, int i, int n);
 
+void perm(char *list, int i, int n);
 #endif /* permutation_h */

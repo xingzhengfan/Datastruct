@@ -12,6 +12,8 @@
 #import "search.h"
 #import "permutation.h"
 
+#import "Horner.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -44,8 +46,16 @@ int main(int argc, const char * argv[]) {
         char str[] = "abcd";
         fullPermutation(str, strlen(str), 0);
         //testFullPermutation(str, strlen(str), 0);
-        
         //perm(str, 0, 2);
+        
+        
+        char str1[] = "fxz";
+        swap_char(str1, str1 + 1);
+        printf("\nstr1->%s\n",str1);
+        
+        //Horner
+        float hornerArr[6] = {6,5,4,3,2,1};
+        printf("\nHornerTestCase -- %f",horner(hornerArr, 3, 6, 0));
     }
     return 0;
 }

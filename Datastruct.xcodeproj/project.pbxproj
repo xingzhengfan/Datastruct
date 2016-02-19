@@ -11,6 +11,7 @@
 		D3497CBB1C5235D1001BF77B /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = D3497CB91C5235D1001BF77B /* sort.c */; };
 		D3497CBE1C523F4A001BF77B /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = D3497CBC1C523F4A001BF77B /* search.c */; };
 		D3A72D391C562A6700CCF8AC /* permutation.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A72D371C562A6700CCF8AC /* permutation.c */; };
+		D3D746551C7564E20006A8C3 /* Horner.c in Sources */ = {isa = PBXBuildFile; fileRef = D3D746531C7564E20006A8C3 /* Horner.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		D3497CBD1C523F4A001BF77B /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
 		D3A72D371C562A6700CCF8AC /* permutation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = permutation.c; sourceTree = "<group>"; };
 		D3A72D381C562A6700CCF8AC /* permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = permutation.h; sourceTree = "<group>"; };
+		D3D746531C7564E20006A8C3 /* Horner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Horner.c; sourceTree = "<group>"; };
+		D3D746541C7564E20006A8C3 /* Horner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				D3497CBD1C523F4A001BF77B /* search.h */,
 				D3A72D371C562A6700CCF8AC /* permutation.c */,
 				D3A72D381C562A6700CCF8AC /* permutation.h */,
+				D3D746531C7564E20006A8C3 /* Horner.c */,
+				D3D746541C7564E20006A8C3 /* Horner.h */,
 			);
 			path = Datastruct;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				D3497CB31C522D19001BF77B /* main.m in Sources */,
 				D3A72D391C562A6700CCF8AC /* permutation.c in Sources */,
 				D3497CBB1C5235D1001BF77B /* sort.c in Sources */,
+				D3D746551C7564E20006A8C3 /* Horner.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
