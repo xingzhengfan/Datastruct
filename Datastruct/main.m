@@ -54,8 +54,8 @@ int main(int argc, const char * argv[]) {
         printf("\nstr1->%s\n",str1);
         
         //Horner
-        float hornerArr[6] = {6,5,4,3,2,1};
-        printf("\nHornerTestCase -- %f",horner(hornerArr, 3, 6, 0));
+        float hornerArr[7] = {7,6,5,4,3,2,1};
+        printf("\nHornerTestCase -- %f",horner(hornerArr, 3, 7, 0));
     }
     return 0;
 }

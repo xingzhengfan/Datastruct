@@ -12,6 +12,7 @@
 		D3497CBE1C523F4A001BF77B /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = D3497CBC1C523F4A001BF77B /* search.c */; };
 		D3A72D391C562A6700CCF8AC /* permutation.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A72D371C562A6700CCF8AC /* permutation.c */; };
 		D3D746551C7564E20006A8C3 /* Horner.c in Sources */ = {isa = PBXBuildFile; fileRef = D3D746531C7564E20006A8C3 /* Horner.c */; };
+		D92C70AB1C78743600F4A42B /* NBoolValueSet.c in Sources */ = {isa = PBXBuildFile; fileRef = D92C70A91C78743600F4A42B /* NBoolValueSet.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		D3A72D381C562A6700CCF8AC /* permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = permutation.h; sourceTree = "<group>"; };
 		D3D746531C7564E20006A8C3 /* Horner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Horner.c; sourceTree = "<group>"; };
 		D3D746541C7564E20006A8C3 /* Horner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horner.h; sourceTree = "<group>"; };
+		D92C70A91C78743600F4A42B /* NBoolValueSet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NBoolValueSet.c; sourceTree = "<group>"; };
+		D92C70AA1C78743600F4A42B /* NBoolValueSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBoolValueSet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				D3A72D381C562A6700CCF8AC /* permutation.h */,
 				D3D746531C7564E20006A8C3 /* Horner.c */,
 				D3D746541C7564E20006A8C3 /* Horner.h */,
+				D92C70A91C78743600F4A42B /* NBoolValueSet.c */,
+				D92C70AA1C78743600F4A42B /* NBoolValueSet.h */,
 			);
 			path = Datastruct;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				D3497CBE1C523F4A001BF77B /* search.c in Sources */,
 				D3497CB31C522D19001BF77B /* main.m in Sources */,
 				D3A72D391C562A6700CCF8AC /* permutation.c in Sources */,
+				D92C70AB1C78743600F4A42B /* NBoolValueSet.c in Sources */,
 				D3497CBB1C5235D1001BF77B /* sort.c in Sources */,
 				D3D746551C7564E20006A8C3 /* Horner.c in Sources */,
 			);
