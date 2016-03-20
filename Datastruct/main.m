@@ -14,6 +14,8 @@
 
 #import "Horner.h"
 
+#import "NBoolValueSet.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -56,6 +58,14 @@ int main(int argc, const char * argv[]) {
         //Horner
         float hornerArr[7] = {7,6,5,4,3,2,1};
         printf("\nHornerTestCase -- %f",horner(hornerArr, 3, 7, 0));
+        
+        char ** strArr = printfValueSet(2);
+        
+        int length = strlen(strArr);
+        for (int i = 0; i < length; ++i) {
+            char *tempStr = *(strArr + i);
+            printf("\n%s",tempStr);
+        }
     }
     return 0;
 }

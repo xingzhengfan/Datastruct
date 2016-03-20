@@ -11,5 +11,5 @@
 
 #include <stdio.h>
 
-void printfValueSet(char *list);
+char **  printfValueSet(int count);
 #endif /* NBoolValueSet_h */
